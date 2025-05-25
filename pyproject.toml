@@ -13,6 +13,10 @@ dependencies = [
     "alive-progress>=3.2.0",
 ]
 
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
 [[tool.uv.index]]
 url = "https://pypi.org/simple"
 
