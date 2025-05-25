@@ -1,0 +1,1 @@
+This is a submodule of `nnaf` (https://github.com/AmadFat/NNAF.git).

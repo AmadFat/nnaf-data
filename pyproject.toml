@@ -1,0 +1,23 @@
+[project]
+authors = [{name = "AmadFat", email = "1943269060@qq.com"}]
+name = "nnaf-data"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "nvidia-dali-cuda120>=1.49.0",
+    "webdataset>=0.2.111",
+    "xxhash>=3.5.0",
+    "joblib>=1.5.0",
+    "nnaf==0.1.0",
+]
+
+[[tool.uv.index]]
+url = "https://pypi.org/simple"
+
+[[tool.uv.index]]
+url = "http://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+
+[tool.uv.sources]
+nnaf = { git = "https://github.com/AmadFat/NNAF.git" }
